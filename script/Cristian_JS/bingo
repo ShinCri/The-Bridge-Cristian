@@ -1,23 +1,17 @@
 
-const cartonsSolded = "";
+const cartonsSolded = 5;
 const columnsNumber = 9;
-const rowsNumber= 3;
-const maxNumbersRows= 5;
+const rowsNumber= ;
 const minNumber = 1;
 const maxNumber = 90;
 const tryings = (maxNumber-minNumber+1);
-
-for(i=minNumber;i<=((maxNumber-minNumber)/rowsNumber+1);i++){
-numbersDistributionRows = [[],[],[]];
-numbersDistributionRows.push()
-
-
-}
+const rowsNumber= co
+const ballContainer = [];
 
 for (i=minNumber;i<=maxNumber;i++){
-  const ballContainer = [];
   ballContainer.push(i);
 }
+
 
 
 for(x=1;x<=cartonsSolded;x++){
@@ -35,7 +29,7 @@ const cartonCreator =[
 
 ]
 cartonNumbers.push();
-
+shuffle.ballContainer();
 
 }
 
