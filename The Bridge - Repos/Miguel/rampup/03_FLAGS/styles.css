@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.right-column {
+  width: 25%;
+  background-color: #808080;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  flex: 1;
+  background-color: #808080;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.top-box {
+  justify-content: space-evenly;
+}
+
+.middle-box {
+  justify-content: space-evenly;
+}
+
+.bottom-box {
+  justify-content: space-around;
+}
+
+.box:last-child {
+  border-bottom: none;
+}
+
+.flag {
+  width: 290px;
+  height: 163px;
+  background-color: white;
+}
+
+.spain {
+  background: linear-gradient(#ad1519 25%, #fabd00 25%, #fabd00 75%, #ad1519 0);
+}
+
+.argentina {
+  background: linear-gradient(#75aee1 33.33%, #ffffff 33.33%, #ffffff 66.66%,  #75aee1 0);
+}
+
+.germany {
+  background: linear-gradient(#000000 33.33%, #e2001f 33.33%, #e2001f 66.66%,  #f7da27 0);
+}
+
+.france {
+  background: linear-gradient(to right, #0060a1 33.33%, #ffffff 33.33%, #ffffff 66.66%,  #d90025 0);
+}
+
+.italy {
+  background: linear-gradient(to right, #009346 33.33%, #ffffff 33.33%, #ffffff 66.66%,  #cf2b35 0);
+}
+
+.japan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle{
+  width: 115px;
+  height: 115px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.costa-rica {
+  background: linear-gradient(
+  #001584 16.66%,
+  #ffffff 16.66%,
+  #ffffff 33.32%,
+  #da281c 33.32%,
+  #da281c 66.64%,
+  #ffffff 66.64%,
+  #ffffff 83.3%,
+  #001584 83.3%
+);
+}
+
+.catalunya {
+  background: linear-gradient(
+  #FFC700 11.11%,
+  #C8102E 11.11%,
+  #C8102E 22.22%,
+  #FFC700 22.22%,
+  #FFC700 33.33%,
+  #C8102E 33.33%,
+  #C8102E 44.44%,
+  #FFC700 44.44%,
+  #FFC700 55.55%,
+  #C8102E 55.55%,
+  #C8102E 66.66%,
+  #FFC700 66.66%,
+  #FFC700 77.77%,
+  #C8102E 77.77%,
+  #C8102E 88.88%,
+  #FFC700 88.88%
+);
+}
+
+.bolivia {
+
+}
+
+.emirates {
+
+}

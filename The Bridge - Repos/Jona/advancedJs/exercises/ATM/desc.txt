@@ -1,0 +1,31 @@
+Desarrolla un código que cumpla con las siguientes características:
+
+1) Debe pasarse un dato numérico como argumento a una función.
+
+2) La función debe actuar como si de un cajero automático de dinero se tratase.
+Debe pintar un primer log con el dinero que queramos sacar.
+Luego debe pintar los billetes y monedas que debería devolverte el cajero.
+
+3) La función no debe devolver nada, solo pintar logs.
+
+4) Debe pintar distinto log para billetes que para monedas.
+
+5) El programa NO trabaja con céntimos o decimales.
+
+6) El código no debe ocupar más de 20 lineas.
+
+7) Solo podrá utilizarse lo visto en clase.
+
+8) Para el importe 1498, debería pintar lo siguiente:
+
+Amount to subtract: 1498
+|500 €|
+|500 €|
+|200 €|
+|200 €|
+|50 €|
+|20 €|
+|20 €|
+|5 €|
+(2 €)
+(1 €)

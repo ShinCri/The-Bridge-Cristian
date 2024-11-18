@@ -1,0 +1,40 @@
+#root {
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  border: 1px black solid;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.hit {
+  background-color: orange;
+}
+
+.sunk {
+  background-color: red;
+}
+
+.water {
+  background-color: blue;
+}

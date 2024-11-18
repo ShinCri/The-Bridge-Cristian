@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #d3d6da;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 100px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #d3d6da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyboard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.key {
+  padding: 10px;
+  height: 50px;
+  background-color: #d3d6da;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.enter {
+  font-size: 10px;
+}
+
+.isWrongNumber {
+  background-color: #3a3a3c;
+  color: white;
+  font-weight: bold;
+}
+
+.isDifferentIndex {
+  background-color: #b59f3b;
+  color: white;
+  font-weight: bold;
+}
+
+.isSameIndex {
+  background-color: #538d4e;
+  color: white;
+  font-weight: bold;
+}

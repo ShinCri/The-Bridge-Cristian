@@ -1,0 +1,120 @@
+/* Estilos globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(black, #dd0b16);
+}
+
+/* Header */
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#initial_logo {
+  width: calc(240px + 15vw);
+  min-width: 100px;
+  animation: bounce 3s infinite;
+  margin-top: 3vh;
+}
+
+/* Main */
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 2vh;
+}
+
+/* Texto principal */
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 4.5vh 1.2vh 2vh 1.2vh;
+}
+
+.text p {
+  font-size: calc(0.6em + 1vw);
+  font-weight: 100;
+  margin-top: 3vh;
+  line-height: 1.5;
+}
+
+.text h1 {
+  font-size: calc(2em + 0.8vw);
+  margin-bottom: 8vh;
+}
+
+.text h2 {
+  font-size: calc(1.6em + 0.8vw);
+  margin-bottom: 2vh;
+}
+
+.text p.bold{
+  font-size: calc(1.23em + 1vw);
+  font-weight: 900;
+  margin-top: 1vh;
+}
+
+
+
+/* Enlace de icono */
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.link a {
+  background-color: black;
+  width: 40%;
+  max-width: 210px;
+  min-width: 180px;
+  aspect-ratio: 8.5 / 3;
+  border-radius: 18px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(1em + 1vw);
+  margin-top: 9vh;
+}
+
+.link a:hover {
+  background: linear-gradient(to left, black, #650408, black);
+  color: #e3e0e1;
+  transform: scale(1.05);
+}
+
+/* Animación de logo */
+@keyframes bounce {
+  0%, 20%, 50%, 70%, 90%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-6px); }
+  60% { transform: translateY(-4px); }
+}
+
+
