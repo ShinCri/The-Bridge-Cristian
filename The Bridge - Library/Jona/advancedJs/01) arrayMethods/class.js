@@ -1,6 +1,6 @@
 const original = ['a', 'b', 'c', 'd',];
 
-// *** AT ***
+// *** AT ****
 // const response = original.at(2);
 // console.log('original', original); // ['a', 'b', 'c', 'd']
 // console.log('response', response); // 'c'
