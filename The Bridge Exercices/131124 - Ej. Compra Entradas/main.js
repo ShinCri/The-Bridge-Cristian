@@ -107,6 +107,7 @@ async function makeOrder() {
 
     if (result.checkout.payment_intent === "FREE_EVENT") {
       alert("Pedido realizado con éxito. Este es un evento gratuito.");
+      document.getElementById("form_data").reset();
       console.log("Detalles del pedido:", result.checkout);
     } else if (result.checkout.url) {
       alert("Redirigiendo a la pasarela de pago...");
@@ -122,3 +123,4 @@ async function makeOrder() {
 
 ticketsinfo();
 document.getElementById("submit").addEventListener("click", makeOrder);
+
