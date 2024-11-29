@@ -14,140 +14,140 @@ html, body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  background:black ;
+  background: black;
 }
 
-header{
+header {
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   display: flex;
-  align-items:end;
-
+  align-items: end;
 }
 
 header img {
   width: 100%;
-  height: 35vh;
+  height: 100%;
 }
-header div{
+
+header div {
   margin-left: 15%;
   margin-bottom: 3%;
   position: absolute;
   text-align: left;
 }
-header p{
+
+header p {
   margin-top: 1%;
 }
 
-/* Main */
+header h1 {
+  font-size: calc(1.8em + 0.5vw);
+  margin-right: 8vw;
+}
+
+
 main {
   flex-grow: 1;
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content:center;
-
-
+  align-items: top;
+  justify-content: center;
+  padding-bottom: 5%;
 }
 
-#structure{
+#structure {
   width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
-
 }
 
-#data{
+#data {
   width: 80%;
-  aspect-ratio: 10/2;
+  aspect-ratio: 10/0.8;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  text-align: left;
+  padding-bottom: 3%;
+  padding-top: 5%;
 }
 
-.box{
-  width: 35%;
-  height: 40%;
+.box {
+  width: auto;
+  height: auto;
   margin-inline: 1%;
-  border-left: 0.4vw  solid orange;
+  border-left: 0.3vw solid orange;
   border-top: 0.1vw solid #202020;
   border-bottom: 0.1vw solid #202020;
   border-right: 0.1vw solid #202020;
   text-align: left;
-  padding: 1.1vw;
+  padding: 1.2vw 3vw;
+  box-shadow: 0 1vh 7vh rgba(168, 109, 46, 0.3);
+  display: flex;
+  flex-direction: column;
 }
 
-div h4{
-  font-size: 1.2vw;
+.time, #place {
+  font-size: calc(0.7em + 0.5vw);
+  color: gray;
 }
 
-#form{
+div h4 {
+  font-size: calc(0.7em + 0.5vw);
+  margin-bottom: 1vh;
+}
+
+#form {
   width: 80%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-form{
+form {
   display: flex;
+  width: auto;
   flex-direction: column;
   text-align: left;
   padding: 5%;
   background-color: white;
   color: black;
   border-radius: 5%;
-  min-height: 350px;
   margin-top: 3%;
 }
 
-form label{
-  font-size: calc(0.5em + 0.5vw);
+form label {
+  font-size: calc(0.8em + 0.5vw);
   margin-bottom: 2%;
-
-
 }
 
-form input{
-  height: calc(15px + 1vw);
+form input, form select {
+  height: calc(19px + 1vw);
   aspect-ratio: 10/1;
   font-size: 100%;
   margin-bottom: 8%;
-  border-width: 1px;
-  
-
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 5px;
 }
-form select{
-  height: calc(15px + 1vw);
-  aspect-ratio: 10/1;
-  font-size: 70%;
-  text-align: center;
+
+form select {
   margin-bottom: 15%;
-  border-width: 3px;
-
+  text-align: center;
+  color: grey;
 }
 
-#submit{
-  width: 65%;
+#submit {
+  width: auto;
   padding: 6%;
-  font-size: 80%;
+  padding-inline: 8%;
+  font-size: calc(0.8vw + 10px);
   background-color: black;
   color: white;
   border-radius: 60px;
-  margin-inline: 17%;
-
-}
-
-#visual_terminal{
-  width: 80%;
-  aspect-ratio: 2/1;
-  margin-bottom: 10%;
-  background-color: white;
-  margin-top: 5%;
-}
-
-#terminal{
-  margin:9% 0 0 0;
-  font-size: calc(1.6em + 1vw);
+  margin-inline: calc(1vw + 10px);
 }
